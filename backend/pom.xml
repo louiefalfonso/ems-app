@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>net.fullstacksprinboot</groupId>
-	<artifactId>ems-backend</artifactId>
+	<artifactId>ems-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ems-backend</name>
 	<description>Demo project for Spring Boot Project</description>

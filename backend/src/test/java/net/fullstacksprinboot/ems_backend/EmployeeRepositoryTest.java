@@ -75,12 +75,9 @@ public class EmployeeRepositoryTest {
 
         Employee employee = employeeRepository.findById(1L).get();
 
-        employeeRepository.delete(employee);
-
         //employeeRepository.deleteById(1L);  <- can also use this for deleteById Method
-
+        employeeRepository.delete(employee);
         Employee employee1 = null;
-
         Optional<Employee> optionalEmployee = employeeRepository.findByEmail("williamform@gmail.com");
 
         if(optionalEmployee.isPresent()){

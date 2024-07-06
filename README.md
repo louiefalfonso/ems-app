@@ -1,6 +1,6 @@
 <p>Employee Management System App using:</p>
 <ul>
-  <li>Java 17</li>
+  <li>Java 17+</li>
   <li>Spring Boot 3</li>
   <li>Spring Data JPA</li>
   <li>ReactJS 18</li>
